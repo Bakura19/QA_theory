@@ -1,0 +1,38 @@
+Итерация - это каждый проход тела цикла
+
+for (начальное значение счётчика; условие продолжения; шаг счётчика) {
+   тело цикла;
+}
+
+
+нужно выполнить 5 циклов
+
+let counter = 1 - переменная начального значения счётчика
+<= 5 - до 5 включительно 
+< 5 - выполнит 4 цикла
+counter = counter + 1 - размер шага, который выполняет счётчик
+
+for (let counter = 1; counter <= 5; counter = counter + 1) {
+console.log('Sjad');
+console.log('Vstan');
+}
+
+names = ['Oleg', 'Misa', 'Bogdan'];
+(3) ["Oleg", "Misa", "Bogdan"]
+money = [10000, 2000, 3000];
+(3) [10000, 2000, 3000]
+voriaMoney = 0;
+for (let counter = 0; counter < 3; counter = counter + 1) {
+console.log(names[counter] + ' tiripirp ' + money[counter]);
+voriaMoney = voriaMoney + money[counter];
+money[counter] = 0;
+}
+
+names.length - указывает длинну массива
+
+voriaMoney = 0;
+for (let counter = 0; counter < names.length; counter = counter + 1) {
+console.log(names[counter] + ' tiripirp ' + money[counter]);
+voriaMoney = voriaMoney + money[counter];
+money[counter] = 0;
+}
