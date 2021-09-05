@@ -35,4 +35,4 @@ for (let counter = 0; counter < names.length; counter = counter + 1) {
 console.log(names[counter] + ' tiripirp ' + money[counter]);
 voriaMoney = voriaMoney + money[counter];
 money[counter] = 0;
-}
+}new branch
